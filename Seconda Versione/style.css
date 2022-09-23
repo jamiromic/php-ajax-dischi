@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/*Regole di Reset*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+img {
+    max-width: 100%;
+
+}
+
+ul,
+ol,
+menu {
+
+    list-style: none;
+
+}
+
+
+
+header {
+    background-color: #2E3A46;
+    padding: 0.85rem 1.25rem;
+    display: flex;
+
+}
+
+.header_img {
+    width: 50px;
+
+}
+
+main {
+    background-color: #1E2D3B;
+
+}
+
+
+.card_wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem 2.5rem;
+
+}
+
+
+
+.card {
+    width: 220px;
+    height: 380px;
+    background-color: #2E3A46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+
+}
+
+.card_body {
+    text-align: center;
+    color: #7B7673;
+
+}
+
+.card_title {
+    color: #FFFAF0;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem 0;
+
+}
+
+.card_author {
+    font-size: 1.25rem;
+
+}
